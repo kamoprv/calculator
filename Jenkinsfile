@@ -16,5 +16,6 @@ pipeline {
 			    sh "./gradlew jacocoTestReport"
 				sh "./gradlew jacocoTestCoverageVerification"
 			}
+		}
 	}
 }
